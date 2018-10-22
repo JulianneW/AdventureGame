@@ -24,7 +24,7 @@ public class AdventureGame {
         String response5;
         String response6;
         String response7;
-        System.out.println("You enter a hainted house and find two doors labeled 'Kitchen' and 'Bedroom' Which one do you enter?");
+        System.out.println("You enter a haunted house and find two doors labeled 'Kitchen' and 'Bedroom' Which one do you enter?");
         response1 = keyedInput.nextLine();
         if (response1.equals("Kitchen"))
             {
