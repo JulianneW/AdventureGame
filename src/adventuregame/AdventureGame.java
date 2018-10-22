@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Julianne Wojdak
+ * 19/10/18
+ * This is my adventure game
  */
 
 package adventuregame;
@@ -24,9 +24,6 @@ public class AdventureGame {
         String response5;
         String response6;
         String response7;
-        String response8;
-        String response9;
-        String response10;
         System.out.println("You enter a hainted house and find two doors labeled 'Kitchen' and 'Bedroom' Which one do you enter?");
         response1 = keyedInput.nextLine();
         if (response1.equals("Kitchen"))
@@ -68,9 +65,18 @@ public class AdventureGame {
                 response5 = keyedInput.nextLine();
                 if (response5.equals("Car"))
             {
-                System.out.println("You exit the way you came and find thee garage. The door to the outside is wide open.");
+                System.out.println("You exit the way you came and find the garage. The door to the outside is wide open.");
                 System.out.println("There is a car and a bike. Which do you take?");
+            }   
+                response6 = keyedInput.nextLine();
+                if (response6.equals("Car"))
+            {
+                System.out.println("You start it up using the key and quickly zoom back home. You escaped.");
             }       
+               if (response6.equals("Bike"))   
+            {
+                System.out.println("I mean you got away but... you had the keys to the car.");
+            }    
                 if (response5.equals("Basement"))
             {
                 System.out.println("There is a stairway in the room that leads to the basement. You enter.");
@@ -84,15 +90,6 @@ public class AdventureGame {
                if (response7.equals("No"))
             {
                 System.out.println("Well I guess you're just stuck on the ladder for eternity now. Hope you can hold on.");
-            }    
-                response6 = keyedInput.nextLine();
-                if (response6.equals("Car"))
-            {
-                System.out.println("You start it up using the key and quickly zoom back home. You escaped.");
-            }       
-               if (response6.equals("Bike"))   
-            {
-                System.out.println("I mean you got away but... you had the keys to the car.");
             }    
                if (response5.equals("Basement"))
             {
