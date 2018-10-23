@@ -17,6 +17,8 @@ public class AdventureGame {
      */
     public static void main(String[] args) {
         Scanner keyedInput = new Scanner(System.in);
+        
+        //Variables
         String response1;
         String response2;
         String response3;
@@ -24,6 +26,8 @@ public class AdventureGame {
         String response5;
         String response6;
         String response7;
+        
+        //Output
         System.out.println("You enter a haunted house and find two doors labeled 'Kitchen' and 'Bedroom' Which one do you enter?");
         response1 = keyedInput.nextLine();
         if (response1.equals("Kitchen"))
